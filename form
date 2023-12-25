@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> sign in </title>
+    <link rel="stylesheet" href="style css2">
+
+
+</head>
+   <body>
+      <h1> SIGN IN FORM </h1>
+      <form action="phone pro.html" method="post">
+        <br> <br>
+        <div>
+            <label for="firstname">FIRST NAME:</label>
+            <input id="firstname"type="text" placeholder="characters ONLY " name="firstname">
+        </div>
+        <br> <br>
+        <div>
+            <label for="lastname">LAST NAME:</label>
+            <input id="lastname" type="text" placeholder="characters ONLY" name="lastname">
+        </div>
+        <br> <br>
+        <div>
+        <label for="pass">PASSWORD:</label>
+        <input id="pass" type="password" placeholder="EX****@1155aa" name="pass">
+        </div>
+        <br> <br>
+        <div>
+            <label for="no"> PHONENUMBER:</label>
+            <input id="no" type="number" placeholder="numbers ONLY" name="no">
+        </div>
+        <br> <br>
+        <div>
+            <label for="adress">ADRESS:</label>
+            <input id="adress" type="text" placeholder="51 Mohammed Abuseada ST. TANTA" name="adress">
+        </div>
+        <br> <br>
+                 <button input="sumbit" name="btntest" id="btn">send</button>
+    </div>
+      </form>
+   </body>
+</html>
